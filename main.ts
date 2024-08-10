@@ -14,7 +14,7 @@ interface WeatherResponse {
 
 // Function to get weather data.
 async function getWeather(location: string): Promise<void> {
-    const apiKey = '438e80b3bc14e314abc2e78f2c620418';
+    const apiKey = 'Your API key';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
 
     try {
